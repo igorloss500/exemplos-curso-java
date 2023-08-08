@@ -5,6 +5,8 @@ public class PrimeiraTareferaCollections {
 
         //recebendo dados do console
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Insira a lista de nomes: ");
         String nome = sc.nextLine();
 
         //intanciando a lista de nomes
@@ -22,6 +24,6 @@ public class PrimeiraTareferaCollections {
         Collections.sort(lista);
 
         //imprimindo no console
-        System.out.println(lista);
+        System.out.println("Lista de nomes ordenada por ordem alfabética:" + lista);
     }
 }
